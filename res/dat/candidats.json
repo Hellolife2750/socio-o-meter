@@ -1,0 +1,28 @@
+{
+    "candidats": [
+        {
+            "name": "Clément",
+            "description": "Salut moi c'est Clément. Bg, je ne passe pas inaperçu auprès des meufs. On dit même que mon sex appeal est égal à celui de DiCaprio. Sinon dans la vie je bouffe des CG, mais ça tlm s'en branle. Alors je te propose de me contacter via discord en écrivant un mess ci-dessous. Bisous bb. 😘",
+            "persoInfos": {
+                "birth": "21 juin 2001 (21ans)",
+                "profession": "Etudiant en info (2k€/mois)",
+                "size": "25,3cm (repos)"
+            },
+            "profilePic": "../res/img/Candidats/clement.png",
+            "messageToken": "1090753562558083102/vzrQ7ZzLjQ_PLOeYIyoOdtlJcvLq3gebu8vrcS-jRbG-FsFUlyeskOiR33i6gHKNJA0g",
+            "sendedMessage": "Merci tu vas pas le regretter. Avec moi, tu vas passer des nuits d'enfer..."
+        },
+        {
+            "name": "Nuno",
+            "description": "Bonjour je suis Nuno et je suis convaincu que mes compétences en informatique sont parmi les meilleures. J'ai travaillé dur pour obtenir une compréhension profonde des différents langages de programmation tel que le ruby React, Angular, Vue.js, Ember.js, Backbone.js, Meteor, Aurelia, Polymer, Knockout.js, Mithril, Svelte, Stimulus, Nest.js, Next.js, Nuxt.js, Express.js, Hapi.js, Feathers.js. J'ai même développé plusieurs applications et IA (en ruby) qui ont été utilisés par des milliers d'utilisateurs à travers le monde.",
+            "persoInfos": {
+                "birth": "08 octobre 2001 (20ans)",
+                "profession": "Etudiant en info (3k€/mois)",
+                "size": "22,8cm (repos)"
+            },
+            "profilePic": "../res/img/Candidats/nuno.png",
+            "messageToken": "Nuno",
+            "sendedMessage": "Merciii !!!"
+        }
+    ]
+}

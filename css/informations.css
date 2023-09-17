@@ -421,7 +421,7 @@ footer .dev-card {
 
 #candidat-photo {
   width: 50%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 20px;
 }
 

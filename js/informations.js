@@ -9,8 +9,8 @@ const loadingScreen = document.querySelector('.loading');
 /*document.body.style.overflow = "hidden";*/
 
 setTimeout(function () {
-    /*coockiesPopup.style.display = "flex";
-    coockiesOverlay.style.display = "block";*/
+    // coockiesPopup.style.display = "flex";
+    // coockiesOverlay.style.display = "block";
 }, 2000);
 
 acpCoockiesBtn.addEventListener('click', showPage);
@@ -92,7 +92,7 @@ const messageInput = document.getElementById('message-input');
 sendApplicationBtn.addEventListener("click", () => {
     let mess = messageInput.value;
     if (mess == "") {
-        showNotificationPopup("Fais l'effort d'écrire un truc au moins gros flemmard va.", 'rgb(204, 63, 63)');
+        showNotificationPopup("Tu dois écrire un message avant de l'envoyer !", 'rgb(204, 63, 63)');
         return;
     }
     sendMessage(mess);
@@ -108,14 +108,14 @@ async function sendMessage(message) {
     request.setRequestHeader('Content-type', 'application/json');
 
     var params = {
-        username: "MeeticMatch",
+        username: "Socio-o-meter",
         content: "" + message
     };
 
     request.send(JSON.stringify(params));
 
     if (discordResponse.status === 401) {
-        showNotificationPopup("Impossible d'envoyer le message. La token de ce branleur de candidat doi être erroné.", 'rgb(204, 63, 63)');
+        showNotificationPopup("Impossible d'envoyer le message. La token du créateur doit être erroné.", 'rgb(204, 63, 63)');
         //console.log("Impossible d'envoyer un message au serveur discord. Token invalide ??")
     } else {
         showNotificationPopup(candidats[cdtIndex]["sendedMessage"], 'rgb(38, 180, 133)');
@@ -128,7 +128,7 @@ const notificationPopup = document.getElementById('notification-popup');
 
 fakeLinks.forEach(function (link) {
     link.addEventListener("click", () => {
-        showNotificationPopup("Et non l'ami ce sont de faux liens ! Tu crois vraiment qu'on n'a autant pas de vie que ça ?", 'rgb(204, 63, 63)');
+        showNotificationPopup("Le lien est indisponible. Veuillez réessayer ultérieurement.", 'rgb(204, 63, 63)');
     })
 });
 

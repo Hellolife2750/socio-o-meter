@@ -14,15 +14,15 @@
         },
         {
             "name": "Nuno",
-            "description": "Bonjour je suis Nuno et je suis convaincu que mes compétences en informatique sont parmi les meilleures. J'ai travaillé dur pour obtenir une compréhension profonde des différents langages de programmation. Cela serait un plaisir de vous apporter plus d'informations concernant ce site que j'ai eu l'occasion de co-fonder.",
+            "description": "Bonjour je suis Nuno actuellement en IUT informatique à Gradignan je suis à la recherche d'un stage qui peut mener sur une alternance. Cela serait un plaisir de vous apporter plus d'informations concernant ce site que j'ai eu l'occasion de cofonder.",
             "persoInfos": {
                 "birth": "2004 (18ans)",
                 "profession": "Etudiant en informatique",
                 "size": "1m77"
             },
             "profilePic": "../res/img/Candidats/nuno.png",
-            "messageToken": "Nuno",
-            "sendedMessage": "Merciii !!!"
+            "messageToken": "1164887753742372904/4_ztvuaatWlRLwV7Ej46MTW_wo4KiL0gsrS_e1TygpG7tIFu85w5X8M_AEpfj87sgiVq",
+            "sendedMessage": "Merci, je te répondrai dès que je pourrai !"
         }
     ]
 }

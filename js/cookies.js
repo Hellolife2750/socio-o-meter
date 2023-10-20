@@ -77,34 +77,6 @@ function getOsName() {
   return osName;
 }
 
-// function isPrivateMode() {
-//     return new Promise((resolve) => {
-//       const on = () => resolve(true); // Le mode privé est activé
-//       const off = () => resolve(false); // Le mode privé n'est pas activé
-
-//       // Vérifie si le mode privé est activé en essayant d'utiliser un objet de stockage privé
-//       try {
-//         const fs = window.RequestFileSystem || window.webkitRequestFileSystem;
-//         if (!fs) {
-//           // Le navigateur ne supporte pas l'API FileSystem
-//           return resolve(false);
-//         }
-
-//         fs(
-//           window.TEMPORARY,
-//           100,
-//           () => off(),
-//           () => on(),
-//         );
-//       } catch (e) {
-//         // Le mode privé est activé
-//         on();
-//       }
-//     });
-//   }
-
-
-
 async function isPrivateMode() {
   let privateMode = false;
 
